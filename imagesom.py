@@ -229,6 +229,7 @@ spectral_axis_np = np.asarray(spectral_axis)
 selected_lambdas = spectral_axis_np[selected_indices]
 print(selected_lambdas)
 
+#COMPONENT PLANES
 h = 188 #index of the raman shift selected
 xx, yy = som.get_euclidean_coordinates()
 fig, ax = plt.subplots(figsize=(6, 6))
